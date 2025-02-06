@@ -54,7 +54,7 @@ void typeAlias() {
     cout << num2 << endl;
 }
 
-int main() {
-    typeAlias();
-    return 0;
-}
+// int main() {
+//     typeAlias();
+//     return 0;
+// }

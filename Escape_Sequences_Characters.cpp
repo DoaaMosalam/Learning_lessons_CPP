@@ -19,9 +19,5 @@ void  escape_characters() {
     cout << "Hello\0World" << endl; // null
 }
 
-// int main() {
-//     escape_characters();
-//     return 0;
-// }
 
 
