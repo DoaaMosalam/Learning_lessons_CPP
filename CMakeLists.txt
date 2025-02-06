@@ -7,4 +7,5 @@ add_executable(Learning_lessons_C___ main.cpp
         decrement_increment.cpp
         data_types.cpp
         Escape_Sequences_Characters.cpp
+        typeAlias.cpp
 )

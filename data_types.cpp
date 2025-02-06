@@ -37,8 +37,7 @@ void data_types(){
     cout << &x << endl; // memory address
 
 }
-
-int main() {
-    data_types();
-    return 0;
-}
+// int main() {
+//     data_types();
+//     return 0;
+// }

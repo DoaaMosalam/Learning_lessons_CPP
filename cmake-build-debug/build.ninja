@@ -73,6 +73,12 @@ build CMakeFiles/Learning_lessons_C___.dir/Escape_Sequences_Characters.cpp.obj: 
   OBJECT_DIR = CMakeFiles\Learning_lessons_C___.dir
   OBJECT_FILE_DIR = CMakeFiles\Learning_lessons_C___.dir
 
+build CMakeFiles/Learning_lessons_C___.dir/typeAlias.cpp.obj: CXX_COMPILER__Learning_lessons_C____unscanned_Debug E$:/Code$ programmer/C++/Learning$ lessons(C++)/typeAlias.cpp || cmake_object_order_depends_target_Learning_lessons_C___
+  DEP_FILE = CMakeFiles\Learning_lessons_C___.dir\typeAlias.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Learning_lessons_C___.dir
+  OBJECT_FILE_DIR = CMakeFiles\Learning_lessons_C___.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Learning_lessons_C___
@@ -81,7 +87,7 @@ build CMakeFiles/Learning_lessons_C___.dir/Escape_Sequences_Characters.cpp.obj: 
 #############################################
 # Link the executable Learning_lessons_C___.exe
 
-build Learning_lessons_C___.exe: CXX_EXECUTABLE_LINKER__Learning_lessons_C____Debug CMakeFiles/Learning_lessons_C___.dir/main.cpp.obj CMakeFiles/Learning_lessons_C___.dir/decrement_increment.cpp.obj CMakeFiles/Learning_lessons_C___.dir/data_types.cpp.obj CMakeFiles/Learning_lessons_C___.dir/Escape_Sequences_Characters.cpp.obj
+build Learning_lessons_C___.exe: CXX_EXECUTABLE_LINKER__Learning_lessons_C____Debug CMakeFiles/Learning_lessons_C___.dir/main.cpp.obj CMakeFiles/Learning_lessons_C___.dir/decrement_increment.cpp.obj CMakeFiles/Learning_lessons_C___.dir/data_types.cpp.obj CMakeFiles/Learning_lessons_C___.dir/Escape_Sequences_Characters.cpp.obj CMakeFiles/Learning_lessons_C___.dir/typeAlias.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Learning_lessons_C___.dir
