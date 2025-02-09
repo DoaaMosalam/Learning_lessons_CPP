@@ -52,7 +52,7 @@ public:
      * switch statement is a control statement that allows a value to change the control of execution.
      * The switch statement is a multiway branch statement.
      */
-    void positiveOrNegative() {
+    static void positiveOrNegative() {
         int num;
         cout << "Enter Your integer number: ";
         cin >> num;
