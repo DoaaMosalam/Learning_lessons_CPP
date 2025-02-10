@@ -15,6 +15,9 @@ add_executable(Learning_lessons_C___ main.cpp
         Escape_Sequences_Characters.h
         Data_Types_Type_Conversion.h
         Arrays.h
+        TwoDimensional_Array.h
+        struct_operators.h
+        Exercises.h
 
 
 )
