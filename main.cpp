@@ -7,6 +7,7 @@
 #include "ControlStatement.h"
 #include "decrement_increment.h"
 #include "Exercises.h"
+#include "pointer.h"
 #include "Repetition_Statement.h"
 #include "Scope_of_variable.h"
 #include "struct_operators.h"
@@ -78,11 +79,24 @@ int main() {
     // struct_operators.printStudent();
     // struct_operators.printAllDataEmployee();
     //======================================================================
-   Exercises exercises;
-    Exercises::Employees list[5];
-    exercises.get_data(list,5);
-    exercises.set_bonues(list,5,0.1f);
-    exercises.printAllEmployees(list,5);
+    pointer pointer;
+    // pointer.printPointer();
+    // pointer.pointerWithArray();
+    // pointer.printPointerWithArray();
+
+    double x = 10.5, y = 20.5;
+    cout<<"Before swapping: "<<endl;
+    cout<<"x = "<<x<<", y = "<<y<<endl;
+    pointer.swap(&x,&y);
+    cout<<"After swapping: "<<endl;
+    cout<<"x = "<<x<<", y = "<<y<<endl;
+
+    //======================================================================
+   // Exercises exercises;
+   //  Exercises::Employees list[5];
+   //  exercises.get_data(list,5);
+   //  exercises.set_bonues(list,5,0.1f);
+   //  exercises.printAllEmployees(list,5);
 
 
     return 0;

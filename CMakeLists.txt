@@ -18,6 +18,7 @@ add_executable(Learning_lessons_C___ main.cpp
         TwoDimensional_Array.h
         struct_operators.h
         Exercises.h
+        pointer.h
 
 
 )
