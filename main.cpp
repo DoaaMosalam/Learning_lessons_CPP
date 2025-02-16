@@ -1,9 +1,13 @@
 #include <iostream>
+#include <string>
 
 #include "data_types.h"
 #include "arithmetic_operators.h"
 #include "Arrays.h"
+#include "Array_Methods_Discussions.h"
+#include "Car.h"
 #include "ComparisonOperators.h"
+#include "Constructor.h"
 #include "ControlStatement.h"
 #include "decrement_increment.h"
 #include "Exercises.h"
@@ -60,6 +64,9 @@ int main() {
     // arrays.subtractionArray();
     // arrays.multiplyArray();
     //===============================================================================
+    Array_Methods_Discussions array_methods_discussions;
+    // array_methods_discussions.printArray();
+    //  //=================================================================================
     TwoDimensional_Array twoD;
     // twoD.printTwoDArray();
     //===============================================================================
@@ -84,12 +91,12 @@ int main() {
     // pointer.pointerWithArray();
     // pointer.printPointerWithArray();
 
-    double x = 10.5, y = 20.5;
-    cout<<"Before swapping: "<<endl;
-    cout<<"x = "<<x<<", y = "<<y<<endl;
-    pointer.swap(&x,&y);
-    cout<<"After swapping: "<<endl;
-    cout<<"x = "<<x<<", y = "<<y<<endl;
+    // double x = 10.5, y = 20.5;
+    // cout<<"Before swapping: "<<endl;
+    // cout<<"x = "<<x<<", y = "<<y<<endl;
+    // pointer.swap(&x,&y);
+    // cout<<"After swapping: "<<endl;
+    // cout<<"x = "<<x<<", y = "<<y<<endl;
 
     //======================================================================
    // Exercises exercises;
@@ -97,6 +104,21 @@ int main() {
    //  exercises.get_data(list,5);
    //  exercises.set_bonues(list,5,0.1f);
    //  exercises.printAllEmployees(list,5);
+
+    //=================================================================================
+    /*
+     * First class using by header file and cpp file
+     */
+    // Car::Car car;
+    // car.setModel(2021);
+    // car.setMaker("Honda");
+    // car.setColor("Black");
+    // cout<<"The car maker is: "<<car.getMaker()<<endl;
+    // cout<<"The car model is: "<<car.getModel()<<endl;
+    // cout<<"The car color is: "<<car.getColor()<<endl;
+//=================================================================================
+    Regtangle::Regtangle reg(5.5,6.6);
+
 
 
     return 0;

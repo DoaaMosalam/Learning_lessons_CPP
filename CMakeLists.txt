@@ -19,6 +19,13 @@ add_executable(Learning_lessons_C___ main.cpp
         struct_operators.h
         Exercises.h
         pointer.h
+        Car.cpp
+        Car.h
+        arithmetic_operators.cpp
+        Array_Methods_Discussions.h
+        Constructor.cpp
+        Constructor.h
+        Constructor.h
 
 
 )
